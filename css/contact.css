@@ -36,7 +36,7 @@
     display: block;
     padding-bottom: 15px;
     background-repeat: no-repeat;
-    background-image: url("/расходники/phone_contact.png");
+    background-image: url("../расходники/phone_contact.png");
     width: 24px;
     height: 24px;
 }
@@ -64,7 +64,7 @@
     display: block;
     padding-bottom: 15px;
     background-repeat: no-repeat;
-    background-image: url("/расходники/mail_contact.png");
+    background-image: url("../расходники/mail_contact.png");
     width: 24px;
     height: 24px;
 }
