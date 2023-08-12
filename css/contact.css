@@ -1,0 +1,170 @@
+.contact_width_1150px {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 1150px;
+    margin: 0 auto;
+    background-color:  white;
+}
+
+
+.contact_title {
+    margin-bottom: 24px;
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+
+.contact_wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact_wraper_box{
+    width: calc(50% - 52px);
+}
+
+.phone_number:before {
+    margin-left: -5px;
+    content: '';
+    display: block;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-image: url("/расходники/phone_contact.png");
+    width: 24px;
+    height: 24px;
+}
+
+
+.phone_number{   
+    color:  #121212;
+    text-decoration: none; 
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+    letter-spacing: -1.8px;
+}
+.phone_number:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    color: var(--text, #121212);
+}
+
+
+.mail:before {
+    margin-left: -5px;
+    content: '';
+    display: block;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-image: url("/расходники/mail_contact.png");
+    width: 24px;
+    height: 24px;
+}
+.mail {
+    width: 100%;
+    color: var(--text, #121212);
+    font-size: 60px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+    letter-spacing: -1.8px;
+}
+
+
+.mail:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+    color: var(--text, #121212);
+}
+
+
+
+@media (max-width: 1199px) {
+    .contact_width_1150px {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        width: 100%;
+    }
+
+    .contact_width_1150px_margin{
+        padding-left: 17px;
+    }
+
+    .contact_title {
+        margin-bottom: 24px;
+        width: 100%;
+    }
+
+    .contact_wraper_box{
+        width: calc(50% - 57px);
+    }
+    
+
+    .phone_number{   
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+
+    .mail {
+        width: 100%;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .contact_width_1150px {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .contact_title {
+        margin-bottom: 20px;
+        letter-spacing: -0.42px;
+    }
+
+
+    .contact_wraper {
+        flex-direction: column;
+    }
+    .contact_wraper {
+        row-gap: 20px;
+    }
+    .contact_wraper_box{
+        width: 100%;
+    }
+
+    .phone_number:before {
+        padding-bottom: 20px;
+        width: 18px;
+        height: 18px;
+    }
+    
+    
+    .phone_number{   
+        font-size: 35px;
+        line-height: 45.621px; 
+        letter-spacing: -1.05px;
+    }
+
+    .mail:before {
+        padding-bottom: 20px;
+        height: 18px;
+    }
+    .mail {
+        font-size: 35px;
+        line-height: 45.621px; /* 130.345% */
+        letter-spacing: -1.05px;
+    }
+}

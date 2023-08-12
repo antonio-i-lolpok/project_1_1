@@ -1,0 +1,128 @@
+
+.reviews_width_1150px {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.reviews_h2{
+    padding-top: 120px;
+    margin-left: 0px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.reviews_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviews_box {
+    width: calc(50% - 42px);
+}
+
+
+.reviews_box_big {
+    width: 861px;
+}
+
+.reviews_h3 {
+    margin-top: 30px;
+    padding-bottom: 14px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+}
+
+.reviews_p {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+@media (max-width: 1199px) {
+
+    .reviews_margin {
+        margin: 0 15px;
+    }
+
+    .reviews_width_1150px {
+        width:auto;
+    }
+
+    .reviews_h2{
+        margin-top: 120px;
+        padding-top: 0px;
+
+    }
+
+    .reviews_h3 {
+        padding-bottom: 25px;
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
+
+    .reviews_p {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+
+    .reviews_box {
+        width: calc(50% - 5px);
+    }
+    .reviews_box_big {
+        width: 75%;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .reviews_margin {
+        margin: 0 13px;
+    }
+
+    .reviews_h2{
+        margin-top: 80px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .reviews_wrapper {
+        flex-direction: column;
+    }
+
+    .reviews_box {
+        width:100%;
+    }
+
+    .reviews_box_big {
+        width: 100%;
+    }
+
+    .reviews_h3 {
+        margin-top: 22px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+
+
+    .reviews_p {
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+    .reviews_p_botom {
+        margin-bottom: 80px;
+    }
+}

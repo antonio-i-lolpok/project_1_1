@@ -1,0 +1,370 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(contact.css);
+@import url(blacksection.css);
+@import url(project.css);
+@import url(reviews.css);
+@import url(gallery.css);
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+}
+
+
+
+
+h1 {
+    color: #121212;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    margin-right: 319px;
+
+}
+
+h2 {
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 150px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+
+.before_width_1400px {
+    width: 1150px;
+    margin: 0 auto;
+    background-color:  white;
+    overflow: hidden;
+    
+}
+
+
+
+
+.modern_and_stylish_interiors{
+    padding-top: 68px;
+    margin-bottom: 30px;
+    width: 956px;
+    color: #121212;
+    font-family: Manrope;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 100% */
+    letter-spacing: -1.8px;
+    
+    
+}
+
+
+
+.hat_textp {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+
+.hat_photo{
+    position: relative;
+    width: 1150px;
+    height: 500px;
+    background-image: url("../расходники/наивысшеефото_1.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.hat_text{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    width: 430px;
+    letter-spacing: -0.6px;
+}
+
+.studio_founded {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1048px;
+    color: var(--text, #121212);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.35px;
+}
+
+
+
+.hr {
+    display: block;
+    height: 67px;
+    width: 255px;
+    border-radius: 5px;
+    background-color: #AD1818;
+    text-decoration: none;
+    text-align: center;
+    line-height: normal;
+}
+
+.hrtxt {
+    color: white;
+    text-decoration: none;
+    letter-spacing: -0.6px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1199px) {
+    
+    .before_width_1400px {
+        
+        width: 100%; 
+    }
+    .before_width_1400px_100 {
+        margin: 0 15px;
+    }
+    .modern_and_stylish_interiors{
+        padding-left: 15px;
+        margin-left: 0px;
+        width: 100%;
+        color: #121212;
+        font-family: Manrope;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60px; /* 120% */
+        letter-spacing: -1.5px;
+    }
+
+    .hat_textp {
+        width: 430px;
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+    .hat_photo{
+        padding-left: 15px;
+        margin-left: 0px;
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-image: url("../расходники/наивысшеефото_1.png");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }   
+    .hat_text{
+        position: absolute;
+        left: 40px;
+        bottom: 30px;
+    }
+    h2 {
+        margin-left: 0px;
+        margin-top: 120px;
+        color: #121212;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.54px;
+        text-transform: uppercase;
+    }
+
+    .studio_founded {
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-right: 250px;
+        width: 100%;
+        color: var(--text, #121212);
+        font-family: Manrope;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -1.05px;
+    }
+
+    .hr {
+        margin-left: 0px;
+        display: block;
+        height: 67px;
+        width: 255px;
+        border-radius: 5px;
+        background-color: #AD1818;
+        text-decoration: none;
+        text-align: center;
+        line-height: normal;
+    }
+    
+    .hrtxt {
+        color: white;
+        text-decoration: none;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.6px;
+    }
+
+    h2 {
+        padding-top: 120px;
+        margin-left: 0px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .before_width_1400px {
+        width: 100%;
+    }
+    .before_width_1400px_100 {
+        margin: 0 15px;
+    }
+
+    .modern_and_stylish_interiors{
+        width: 100%;
+        margin-left: 0px;
+        color: #121212;
+        font-family: Manrope;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 31.621px; /* 105.402% */
+        letter-spacing: -0.9px;
+    }
+
+    .hat_textp {
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.48px;
+        width: 312px;
+    }
+    .hat_photo{
+        margin-left: 0px;
+        position: relative;
+        width: 100%;
+        height: 304px;
+        background-image: url("../расходники/phone_hat_img.jpg");
+        background-size: cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }   
+    .hat_text{
+        position: absolute;
+        left: 15px;
+        bottom: 15px;
+        right: 23px;
+    }
+
+    h2 {
+        margin-left: 0px;
+        margin-top: 80px;
+        color: #121212;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.42px;
+        text-transform: uppercase;
+    }
+
+    .studio_founded {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-right: 17px;
+        width: 100%;
+        color: var(--text, #121212);
+        font-family: Manrope;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.66px;
+    }
+
+    .hr {
+        margin-left: 0px;
+        display: block;
+        height: 51px;
+        width: 194px;
+        border-radius: 3.802px;
+        justify-content: center;
+        align-items: center;
+        gap: 7.603px;
+        text-decoration: none;
+        text-align: center;
+        line-height: normal;
+    }
+    
+    .hrtxt {
+        color: white;
+        text-decoration: none;
+        padding-left: 0px;
+        padding-right: 4px;
+        padding-top: 12.1px;
+        padding-bottom: 0px;
+        color: #FFF;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.48px;
+    }
+
+
+    h2 {
+        padding-top: 80px;
+        margin-left: 0px;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+
+    }
+}

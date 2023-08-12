@@ -1,0 +1,283 @@
+.gallery-section {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.gallery {
+    position: relative;
+}
+
+.gallery_01 {
+    position: relative;
+}
+
+
+.gallery__title {
+    margin-top: 67px;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+    text-transform: uppercase;
+}
+.gallery__slides {
+    height: 717px;
+    position: relative;
+}
+
+.gallery__slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0 ;
+}
+
+.gallery__slide_active {
+    opacity: 1;
+}
+
+
+.full_img_1 {
+    width: 100%;
+    height: 717px;
+    background-image: url("../расходники/fuljpg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.full_img_2 {
+    width: 100%;
+    height: 717px;
+    background-image: url("../расходники/fuljpg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.full_img_3 {
+    width: 100%;
+    height: 717px;
+    background-image: url("../расходники/fuljpg_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.full_img_4 {
+    width: 100%;
+    height: 717px;
+    background-image: url("../расходники/fuljpg_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.gallery__control_flex{
+    display: flex;
+}
+.gallery__control {
+    position: absolute;
+    bottom: 162px;
+
+}
+
+
+.gallery__control-prev {
+
+    width: 40px;
+    height: 40px;
+    background:none;
+    border: none;
+}
+
+.gallery__control-prev {
+    background-image: url("../расходники/gallery_prev_01.png");
+    background-repeat: no-repeat;
+}
+
+.gallery__control-prev:hover {
+    opacity: 0.5;
+}
+
+.gallery__control-next {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background:none;
+    border: none;
+}
+
+.gallery__control-next {
+    background-image: url("../расходники/gallery_next.png");
+    background-repeat: no-repeat;
+}
+
+.gallery__control-next:hover {
+    opacity: 0.5;
+}
+
+
+.gallery__project {
+    margin-top: 575px;
+    width: 443px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+
+.gallery_container_1150px{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    
+    
+
+}
+.gallery_container_1150px_wraper{
+    z-index: 100;
+    width: 1150px;
+    margin: 0 auto;
+    
+}
+
+
+
+@media (max-width: 1199px) {
+    .gallery-section {
+        margin-top: 120px;
+    }
+    .gallery__title {
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+    .gallery__slides {
+        height: 536px;
+    }
+
+    .full_img_1 {
+        height: 536px;
+    }
+    
+    .full_img_2 {
+        height: 536px;
+    }
+    
+    .full_img_3 {
+        height: 536px;
+    }
+    
+    .full_img_4 {
+        height: 536px;
+    }
+
+    .gallery__control {
+        position: absolute;
+        bottom: 152px;
+        left:  41px;
+        display: flex;
+        gap: 7px;
+
+    }
+
+    .gallery__project {
+        margin-left: 51px;
+        margin-top: 388px;
+        width: 377px;
+        font-size: 25px;
+        letter-spacing: -0.75px;
+    }
+    
+
+    .gallery_container_1150px_wraper{
+        width: 100%;   
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .gallery-section {
+        margin-top: 80px;
+    }
+
+    .gallery__title {
+        margin-top: 61px;
+        margin-left: 12px;
+        width: auto;
+        font-size: 14px;
+        letter-spacing: -0.42px;
+    }
+
+    .gallery__slides {
+        height: 408px;
+    }
+
+    .full_img_1 {
+        height: 408px;
+    }
+    
+    .full_img_2 {
+        height: 408px;
+    }
+    
+    .full_img_3 {
+        height: 408px;
+    }
+    
+    .full_img_4 {
+        height: 408px;
+    }
+
+    .gallery__control {
+        width: 100%;
+        bottom: 187px;
+        left:  0px;
+        display: flex;
+        padding-left: 6px;
+        padding-right: 6px;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        
+    }
+    
+    .gallery__control-prev {
+        width: 40px;
+        height: 40px;
+    }
+
+    
+    .gallery__control-next {
+        left: 0px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .gallery__project {
+        margin-right: 75px;
+        margin-top: 296px;
+        margin-left: 13px;
+        width:auto;
+        font-size: 19.009px;
+        letter-spacing: -0.57px;
+    }
+
+    
+}
